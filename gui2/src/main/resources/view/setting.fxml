@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.db.controller.SettingController"
+            prefHeight="500.0" prefWidth="700.0">
+    <VBox style="-fx-padding: 20px;-fx-spacing: 10px">
+        <Label text="分类后文件存放的目标文件夹(在监听目录下创建，默认值：AAAABBBB)"/>
+        <HBox alignment="CENTER_LEFT" style="-fx-spacing: 15px">
+            <TextField fx:id="targetFolder" focusTraversable="false" promptText="为空则在监听目录下创建"/>
+            <Button onMouseMoved="#hiddenTip" onAction="#saveTargetFolder" text="保存"/>
+            <Label fx:id="saveFolderTip" style="-fx-text-fill: red" visible="false"/>
+        </HBox>
+        <Label text="文件创建或修改后的延迟移动时间(默认10000ms，只能填正整数)" />
+        <HBox alignment="CENTER_LEFT" style="-fx-spacing: 15px">
+            <TextField fx:id="waitTime" focusTraversable="false" promptText="为空则使用默认值"/>
+            <Label text="ms" />
+            <Button onMouseExited="#hiddenTip" onAction="#saveWaitTime" text="保存"/>
+            <Label fx:id="saveWaitTimeTip" style="-fx-text-fill: red"/>
+        </HBox>
+    </VBox>
+
+
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.ListView?>
+<VBox spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.db.controller.IndexController" prefHeight="800.0" prefWidth="1000.0">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Button text="设置" onAction="#toSetting"/>
+
+    <Text text="正在监听的文件夹: "/>
+<!--    <VBox fx:id="watched"/>-->
+    <ListView VBox.vgrow="ALWAYS" fx:id="watched"/>
+    <Button text="选择一个文件夹" onAction="#selectFolder"/>
+    <Text text="已选择: "/>
+    <ListView fx:id="selected"/>
+    <Button text="添加" onAction="#saveFolderToWatch"/>
+
+
+</VBox>

@@ -1,0 +1,23 @@
+[INFO][21:25:05]: 正在监听：D:\testFolder
+[INFO][21:25:17]: 创建文件：LeiGodSetup_jisu.exe
+[INFO][21:25:17]: 创建文件：未确认 114779.crdownload
+[INFO][21:25:18]: 修改文件：未确认 114779.crdownload
+[INFO][21:25:18]: 为文件加锁：未确认 114779.crdownload
+[INFO][21:25:19]: 修改文件：未确认 114779.crdownload
+[INFO][21:25:19]: 重新加锁：未确认 114779.crdownload
+[WARNING][21:25:27]: 文件已被删除：D:\testFolder\LeiGodSetup_jisu.exe
+[INFO][21:25:28]: 修改文件：未确认 114779.crdownload
+[INFO][21:25:28]: 重新加锁：未确认 114779.crdownload
+[INFO][21:25:31]: 修改文件：未确认 114779.crdownload
+[INFO][21:25:31]: 重新加锁：未确认 114779.crdownload
+[INFO][21:25:44]: 修改文件：未确认 114779.crdownload
+[INFO][21:25:44]: 重新加锁：未确认 114779.crdownload
+[INFO][21:25:51]: 创建文件：LeiGodSetup_jisu.exe
+[INFO][21:25:51]: 为文件加锁：LeiGodSetup_jisu.exe
+[INFO][21:25:51]: 修改文件：LeiGodSetup_jisu.exe
+[WARNING][21:25:57]: 文件已被删除：D:\testFolder\未确认 114779.crdownload
+[INFO][21:26:11]: 已移动：D:\testFolder\exe\LeiGodSetup_jisu.exe
+[INFO][21:26:47]: 创建文件：adad.txt
+[INFO][21:26:53]: 创建文件：adad
+[WARNING][21:26:57]: 文件已被删除：D:\testFolder\adad.txt
+[INFO][21:27:03]: 已移动：D:\testFolder\【未知类型文件】\adad
